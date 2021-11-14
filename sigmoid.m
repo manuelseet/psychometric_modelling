@@ -1,0 +1,1 @@
+function y = sigmoid(params, x);% y = sigmoid(para, x);% sigmoid function of the form y = 1/(1+exp(-k*(x-x0))).% para is a vector of 2 elements with para(1) = k, and para(2) = x0% x is a vector of x values whose y will be evaluated. % Ning Qian 2006-11-20y = 1./(1+exp(-params(1) * (x - params(2))));
